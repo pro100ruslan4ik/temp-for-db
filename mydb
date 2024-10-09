@@ -45,4 +45,21 @@ COMMENTS:
     CreatedAt
 
 LIKES:
+    ID,
+    ContentID,
+    ContentType, 
+    UserID
     
+ALBUMS:
+    ID,
+    CreatedAt
+
+ALBUM-PHOTO:
+    AlbumID,
+    PhotoID
+
+PHOTO:
+    ID,
+    UserID,
+    PhotoURL,
+    UploadedAt
