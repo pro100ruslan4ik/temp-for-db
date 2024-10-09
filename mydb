@@ -1,0 +1,48 @@
+USERS:
+    ID,
+    Name,
+    LastName,
+    Email,
+    DateOfBirth,
+    AvatarURL,
+    CreatedAt
+
+MESSAGES:
+    ID,
+    SenderID,
+    RecipientID,
+    TextMessage,
+    SentAt
+
+FRIENDS:
+    UserID,
+    FriendID,
+    CreatedAt
+
+GROUPS:
+    GroupID,
+    AdminID,
+    Descritption
+
+USER-GROUP:
+    UserID,
+    GroupID,
+    JoinedAt
+
+POSTS:
+    ID,
+    AuthorID,
+    Text,
+    MediaURL,
+    CreatedAt
+
+COMMENTS:
+    ID,
+    PostID,
+    AuthorID,
+    ParentCommentID,
+    Text,
+    CreatedAt
+
+LIKES:
+    
