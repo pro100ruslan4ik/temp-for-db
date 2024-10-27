@@ -12,18 +12,22 @@ MESSAGES:
     SenderID,
     RecipientID,
     TextMessage,
-    SentAt
+    SentAt,
+    State
 
 FRIENDSHIP:
+    ID,
     SenderID,
     RecipientID,
     Status,
-    CreatedAt
+    SentAt
 
 GROUPS:
-    GroupID,
+    ID,
+    Name,
     AdminID,
-    Descritption
+    Descritption,
+    CreatedAt
 
 USER-GROUP:
     UserID,
@@ -35,7 +39,8 @@ POSTS:
     AuthorID,
     Text,
     MediaURL,
-    CreatedAt
+    CreatedAt,
+    GroupID
 
 COMMENTS:
     ID,
