@@ -14,9 +14,10 @@ MESSAGES:
     TextMessage,
     SentAt
 
-FRIENDS:
-    UserID,
-    FriendID,
+FRIENDSHIP:
+    SenderID,
+    RecipientID,
+    Status,
     CreatedAt
 
 GROUPS:
